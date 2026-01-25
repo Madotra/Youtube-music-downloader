@@ -1,0 +1,3 @@
+ytmusicapi
+yt-dlp
+tqdm
