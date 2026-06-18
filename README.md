@@ -130,10 +130,18 @@ nano ytmusic_downloader.py
 * Paste your final Python code into the file.
 * Save (`CTRL + O`) and exit (`CTRL + X`).
 
-2. Run the script with a playlist URL:
+2. Run the script with a playlist or album or individual track URL:
 
 ```bash
+# Playlist downloader
 python3 ytmusic_downloader.py "<YouTube Music Playlist URL>"
+
+# Album downloader
+python3 ytmusic_downloader.py "<YouTube Album URL>"
+
+# Individual track downloader
+python3 ytmusic_downloader.py "<YouTube Music Track URL>"
+
 ```
 
 Example:
@@ -165,3 +173,4 @@ MIT License © Sumit Kumar
 ---
 
 If you have any issue or comments, please leave a comment in discussions section, I will try to resolve it as soon as possible.
+
